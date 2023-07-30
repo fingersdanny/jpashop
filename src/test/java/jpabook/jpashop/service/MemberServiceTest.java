@@ -16,6 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Transactional
+// PersistenceContext에 flush 자체를 하지를 않음 (insert를 안한다)
 public class MemberServiceTest {
 
     @Autowired
